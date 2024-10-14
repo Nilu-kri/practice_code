@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "
+http://testng.org/testng-1.0.dtd">
+<suite name="Regression TestSuite">
+    <test name="Application Test">
+        <classes>
+            <!--<class name="test.TestNgTest" />-->
+            <class name="lowest_price" />
+        </classes>
+    </test>
+</suite>
