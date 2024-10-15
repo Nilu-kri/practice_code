@@ -52,7 +52,7 @@ public class discount_price {
             System.out.println("Navigated to Puma application");
 
             // Navigate to Women's Shop
-            driver.findElement(By.xpath("//a[contains(text(), 'SHOP MEN')]")).click();
+            driver.findElement(By.xpath("//a[contains(text(), 'SHOP NOW')]")).click();
             Thread.sleep(3000); // Wait for products to load
 
             // Sort by Price: Low to High
